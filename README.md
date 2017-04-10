@@ -1,4 +1,12 @@
 Karabiner with my personal preferences.  
+
+```bash
+sudo cp src/core/server/Resources/include/checkbox/emacs_mode.xml /Applications/Karabiner.app/Contents/Resources/include/checkbox/emacs_mode.xml
+sudo cp src/core/server/Resources/include/checkbox/languages/japanese.xml /Applications/Karabiner.app/Contents/Resources/include/checkbox/languages/japanese.xml
+sudo cp src/core/server/Resources/include/checkbox/snippets/emacsmode_controlPNBF.xml /Applications/Karabiner.app/Contents/Resources/include/checkbox/snippets/emacsmode_controlPNBF.xml
+sudo cp src/core/server/Resources/include/checkbox/snippets/emacsmode_controlPNBF_ex.xml /Applications/Karabiner.app/Contents/Resources/include/checkbox/snippets/emacsmode_controlPNBF_ex.xml
+```
+
 - TODO
   -     /Applications/Karabiner.app/Contents/Resources/include/checkbox/    
   - /Users/wsh/src/Karabiner/src/core/server/Resources/include/checkbox/
