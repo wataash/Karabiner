@@ -940,12 +940,11 @@
     <item>
       <name>For Unix Users</name>
       <item>
-        <name>Left Control+O to KANA/EISUU (toggle)</name>
+        <name>Control+O to KANA/EISUU (toggle)</name>
         <appendix>(Except in Virtual Machine, RDC)</appendix>
         <identifier>remap.jis_controlO2kanaeisuu</identifier>
         <not>VIRTUALMACHINE, REMOTEDESKTOPCONNECTION</not>
-        <!-- <autogen>__KeyToKey__ KeyCode::O, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL | ModifierFlag::NONE, KeyCode::VK_JIS_TOGGLE_EISUU_KANA</autogen> -->
-        <autogen>__KeyToKey__ KeyCode::O, ModifierFlag::CONTROL_L | ModifierFlag::NONE, KeyCode::VK_JIS_TOGGLE_EISUU_KANA</autogen>
+        <autogen>__KeyToKey__ KeyCode::O, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL | ModifierFlag::NONE, KeyCode::VK_JIS_TOGGLE_EISUU_KANA</autogen>
       </item>
       <item>
         <name>Control+Backslash(\) to KANA/EISUU (toggle)</name>
